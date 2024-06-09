@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* text-align: center; */
+}
+
+.order-form {
+  display: flex;
+  gap: 10px;
+}
+
+/* TOGGLING OF HIDDEN*/
+.hidden {
+  display: none;
+}

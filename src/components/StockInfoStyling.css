@@ -1,3 +1,92 @@
 li {
+  color: #9ec9de;
   list-style: none;
+}
+
+.stock-list-section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 400px;
+  flex-grow: 1;
+}
+
+.stock-list-section h2 {
+  margin-bottom: 10px;
+}
+
+.stock-list {
+  background-color: #eaf8ff;
+  padding: 5px;
+  border-radius: 29px 0 0 29px;
+  border: 2px solid #345d71;
+  flex: 1 1 0;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stock-list-item-header {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 10px;
+}
+
+.stock-list-item {
+  position: relative;
+  background-color: #345d71;
+  padding: 24px;
+  padding-top: 38px;
+  padding-right: 46px;
+  border-radius: 24px;
+}
+
+.symbol {
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.quantity {
+  letter-spacing: 0.5px;
+  font-size: 18px;
+}
+
+.quantity span {
+  color: #9ec9de;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+}
+
+.prices {
+  color: #fff;
+  letter-spacing: 0.6px;
+  font-size: 18px;
+}
+
+.positive {
+  color: rgb(193, 255, 99);
+}
+
+.negative {
+  color: rgb(254, 102, 102);
+}
+
+.delete-btn {
+  border-radius: 15px;
+  padding: 15px;
+  width: 0;
+  height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0;
+  font-family: sans-serif;
+  position: absolute;
+  font-size: 10px;
+  top: 12px;
+  right: 12px;
 }

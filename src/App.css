@@ -1,1 +1,22 @@
+.finance-dashboard-section {
+  flex: 1 1 0;
+  padding: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  gap: 60px;
+}
 
+.finance-dashboard-section h1 {
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color: #c17d00;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100vh;
+}

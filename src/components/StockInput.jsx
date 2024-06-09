@@ -1,5 +1,6 @@
 import { useCallback, useContext, useState } from "react";
 import StockContext from "../contexts/StockContext";
+import "./StockInputStyling.css";
 
 function StockInput() {
   // StockInput

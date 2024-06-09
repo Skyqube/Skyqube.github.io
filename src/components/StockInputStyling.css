@@ -1,0 +1,33 @@
+.order-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stock-inputs {
+  background-color: #ffffff;
+  border-color: #345d71;
+  border-radius: 5px;
+  padding: 4px 6px;
+  width: 100%;
+}
+
+.stock-inputs::placeholder {
+  opacity: 50%;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 10px;
+  background-color: #2e4756;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #345d71;
+}

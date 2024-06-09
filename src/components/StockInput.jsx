@@ -28,7 +28,7 @@ function StockInput() {
     fetch(
       "https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=" +
         stockSymbol +
-        "&apikey=demo"
+        "&apikey=L4SU55ODM9JB5SCA"
     )
       .then((res) => res.json())
       .then((data) => {
